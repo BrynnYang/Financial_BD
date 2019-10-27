@@ -14,11 +14,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 
-/**
- * ��Ȼ���Ӳ���,������col�Ͻ�������
- * @author KING
- *
- */
 public class NaturalJoin {
 	public static class NaturalJoinMap extends Mapper<Text, BytesWritable, Text, Text>{
 		private int col;
@@ -58,7 +53,7 @@ public class NaturalJoin {
 		IOException,InterruptedException{
 			ArrayList<Text> setR = new ArrayList<Text>();
 			ArrayList<Text> setS = new ArrayList<Text>();
-			//������Դ��Ϊ����Ȼ�����ѿ����˻�
+			
 			for(Text val : value){
 				String[] recordInfo = val.toString().split(" ");
 				if(recordInfo[0].equalsIgnoreCase(relationNameA))
