@@ -14,12 +14,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 
-/**
- * �󽻼�������ÿ��record����(record,1)��reduce
- * ʱֵΪ2�ŷ����record
- * @author KING
- *
- */
 public class UnionSet {
     public static class UnionSetMap extends Mapper<LongWritable, Text, RelationA, IntWritable>{
         private IntWritable one = new IntWritable(1);
