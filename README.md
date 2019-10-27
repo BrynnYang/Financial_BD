@@ -24,7 +24,6 @@ hdfs://localhost:9000/output/
 18
 
 **age=18和<18**的情况下，**RelationA.java**文件的判断条件也不同。
-```java
 //line36
 public boolean isCondition(int col, String value){
 		if(col == 0 && Integer.parseInt(value) == this.id)
@@ -32,8 +31,6 @@ public boolean isCondition(int col, String value){
 		else if(col == 1 && name.equals(value))
 			return true;
 		else if(col ==2 && Integer.parseInt(value) == this.age)//age<18时请改成大于符号
-			return true;
-		else if(col ==3 && Double.parseDouble(value) == this.weight)
 			return true;
 
 
