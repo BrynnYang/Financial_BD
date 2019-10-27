@@ -1,10 +1,12 @@
 # Financial_BD
 金融大数据作业4
 
-矩阵乘法：MatrixMultiply
-关系代数：RelationAlgebra
+1、矩阵乘法：MatrixMultiply
+2、关系代数：RelationAlgebra
 
-具体操作请见：金融大数据-作业4.md
+具体操作请见：金融大数据-作业4.md/pdf,内附每个问题的操作步骤、参数设置、注意事项。
+所有运行结果截图在“运行结果截图”文件夹中，每个项目文件夹的java目录下也有所有生成的part-r-00000输出文件。
+
 
 #####大纲preview：
 ### 1、矩阵乘法
