@@ -16,11 +16,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 //import WordConcurrnce.WordConcurrenceMapper;
 //import WordConcurrnce.WordConcurrenceReducer;
 
-/**
- * ͶӰ����,ѡ����col��ֵ��������������ֵ����������
- * @author KING
- *
- */
+
 public class Projection {
 	public static class ProjectionMap extends Mapper<LongWritable, Text, Text, NullWritable>{
 		private int col;
